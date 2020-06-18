@@ -1,0 +1,119 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+:root {
+	--primario:#7ca500;
+	--primariohover:#8fbf00;
+	--segundario: #;
+	--segundariohover: #;
+	--h1:3.6rem;
+	--h2:2.8rem;
+	--h3:2rem;
+	--h4:1.6rem;
+	--h5:1.4rem;
+	--h6:1rem;
+	--bg1:#7ca500;
+	--bg2:#f5f5f5;
+	--bg3:#e8e8e8;
+	--titlefamily:"Raleway", Arial, Helvetica, sans-serif;	
+	--titlecolor:#222;
+} 
+/*****************************************************
+EJEMPLO
+#div2 {
+  background-color: var(--primario);
+}
+*****************************************************/
+
+/*****************************************************
+TITLES CLASS
+*****************************************************/
+.h1, .h2, .h3, .h4, .h5, .h6 {font-family:var(--titlefamily); color:var(--titlecolor);}
+.h1 {font-size:var(--h1);}
+.h2 {font-size:var(--h2);}
+.h3 {font-size:var(--h3);}
+.h4 {font-size:var(--h4);}
+.h5 {font-size:var(--h5);}
+.h6 {font-size:var(--h6);}
+
+
+.gradient-top-right {background-image: linear-gradient(to top right, #394fa2, #03b96b) !important;}
+
+/*****************************************************
+BG
+*****************************************************/
+.bg1 {background-color: var(--bg1) !important;}
+.bg2 {background-color: var(--bg2) !important;}
+.bg3 {background-color: var(--bg3) !important;}
+
+/*****************************************************
+TEXTOCLARO
+*****************************************************/
+
+.tclaro,
+.tclaro p,
+.tclaro a,
+.tclaro h1, .post-content .tclaro h1,
+.tclaro h2, .post-content .tclaro h2,
+.tclaro h3, .post-content .tclaro h3,
+.tclaro h4, .post-content .tclaro h4,
+.tclaro h5, .post-content .tclaro h5,
+.tclaro h6, .post-content .tclaro h6,
+.tclaro .content-container {
+	color:#fff !important;
+	/* text-shadow: 0px 0px 10px rgba(0,0,0,0.9); */}
+
+/*****************************************************
+FONTSIZE
+*****************************************************/
+.fsL {font-size:1.8rem;}
+.fsM {font-size:1.4rem;}
+.texto-XS {font-size:12px !important; line-height: 1.4em !important;} 
+.texto-M{font-size:14px !important;}
+.texto-L {font-size:18px; line-height: 1.4em !important;}
+.texto-XL {font-size:26px; line-height: 1.3em !important;}
+.texto-XXL {font-size:46px; line-height: 1.3em !important;}
+
+/*****************************************************
+MARGINS
+*****************************************************/
+.center { text-align: center !important; }
+.topmargin { margin-top: 3rem !important; }
+.topmargin-m { margin-top: 1.5rem !important; }
+.topmargin-s { margin-top: 0.75rem !important; }
+.bottommargin { margin-bottom: 3rem !important; }
+.bottommargin-m { margin-bottom: 1.5rem !important; }
+.notoppadding {padding-top:0px !important;}
+
+/*****************************************************
+MENU
+*****************************************************/
+.fusion-main-menu .menu-text {text-transform:uppercase;}
+
+/*****************************************************
+FUSION TABS
+*****************************************************/
+.post-content .active h4.fusion-tab-heading,
+.post-content .fusion-tabs .nav-tabs li a:hover h4 {color:#fff !important;}
+
+/*****************************************************
+FUSION TABS
+*****************************************************/
+.fusion-content-boxes.lidisplaynone ul {list-style:none; padding-left:0px;}
+
+/*****************************************************
+FOOTER
+*****************************************************/
+.fusion-footer .fusion-checklist a {display:inline;}
+
+/*****************************************************
+FOOTER COPYRIGHT
+*****************************************************/
+.fusion-footer-copyright-area .fusion-content-widget-area .widget {margin-bottom:0px;}
