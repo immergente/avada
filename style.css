@@ -33,7 +33,7 @@ EJEMPLO
 *****************************************************/
 
 /*****************************************************
-TITLES CLASS
+	TITLES CLASS
 *****************************************************/
 .h1, .h2, .h3, .h4, .h5, .h6 {font-family:var(--titlefamily); color:var(--titlecolor);}
 .h1 {font-size:var(--h1);}
@@ -47,14 +47,14 @@ TITLES CLASS
 .gradient-top-right {background-image: linear-gradient(to top right, #394fa2, #03b96b) !important;}
 
 /*****************************************************
-BG
+	BACKGROUND
 *****************************************************/
 .bg1 {background-color: var(--bg1) !important;}
 .bg2 {background-color: var(--bg2) !important;}
 .bg3 {background-color: var(--bg3) !important;}
 
 /*****************************************************
-TEXTOCLARO
+	TEXTOCLARO
 *****************************************************/
 
 .tclaro,
@@ -71,7 +71,7 @@ TEXTOCLARO
 	/* text-shadow: 0px 0px 10px rgba(0,0,0,0.9); */}
 
 /*****************************************************
-FONTSIZE
+	FONTSIZE
 *****************************************************/
 .fsL {font-size:1.8rem;}
 .fsM {font-size:1.4rem;}
@@ -82,7 +82,7 @@ FONTSIZE
 .texto-XXL {font-size:46px; line-height: 1.3em !important;}
 
 /*****************************************************
-MARGINS
+	MARGINS
 *****************************************************/
 .center { text-align: center !important; }
 .topmargin { margin-top: 3rem !important; }
@@ -93,27 +93,31 @@ MARGINS
 .notoppadding {padding-top:0px !important;}
 
 /*****************************************************
-MENU
+	MENU	
 *****************************************************/
 .fusion-main-menu .menu-text {text-transform:uppercase;}
 
 /*****************************************************
-FUSION TABS
+	FUSION TABS
 *****************************************************/
 .post-content .active h4.fusion-tab-heading,
 .post-content .fusion-tabs .nav-tabs li a:hover h4 {color:#fff !important;}
-
-/*****************************************************
-FUSION TABS
-*****************************************************/
 .fusion-content-boxes.lidisplaynone ul {list-style:none; padding-left:0px;}
 
 /*****************************************************
-FOOTER
+	FOOTER
 *****************************************************/
 .fusion-footer .fusion-checklist a {display:inline;}
 
 /*****************************************************
-FOOTER COPYRIGHT
+	FOOTER COPYRIGHT
 *****************************************************/
 .fusion-footer-copyright-area .fusion-content-widget-area .widget {margin-bottom:0px;}
+
+/* ----------------------------------------------------------------
+	GOOGLE RECAPTCHA
+-----------------------------------------------------------------*/
+.grecaptcha-badge {
+display: none !important;
+}
+
