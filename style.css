@@ -121,3 +121,11 @@ EJEMPLO
 display: none !important;
 }
 
+/* ----------------------------------------------------------------
+	FILTRO GRIS EN IMAGENES
+-----------------------------------------------------------------*/
+.grayscale img{
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+opacity: 0.8;}
+
