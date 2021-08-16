@@ -75,13 +75,13 @@ EJEMPLO
 /* ----------------------------------------------------------------
 	FONTSIZE
 ---------------------------------------------------------------- */
-.fsL {font-size:1.8rem;}
-.fsM {font-size:1.4rem;}
-.texto-XS {font-size:12px !important; line-height: 1.4em !important;} 
-.texto-M{font-size:14px !important;}
-.texto-L {font-size:18px; line-height: 1.4em !important;}
-.texto-XL {font-size:26px; line-height: 1.3em !important;}
-.texto-XXL {font-size:46px; line-height: 1.3em !important;}
+.fs-l {font-size:1.8rem;}
+.fs-m {font-size:1.4rem;}
+.fs-xs {font-size:12px !important; line-height: 1.4em !important;} 
+.fs-m {font-size:14px !important;}
+.fs-l {font-size:18px; line-height: 1.4em !important;}
+.fs-xl {font-size:26px; line-height: 1.3em !important;}
+.fs-xxl {font-size:46px; line-height: 1.3em !important;}
 
 /* ----------------------------------------------------------------
 	MARGINS
@@ -130,4 +130,43 @@ display: none !important;
 -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
 opacity: 0.8;}
+
+/* ----------------------------------------------------------------
+	RESPONSIVE BREAKPOINTS
+-----------------------------------------------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1692px and up) */
+@media only screen and (min-width: 1692px) {
+
+}
 
