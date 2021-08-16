@@ -97,13 +97,6 @@ EJEMPLO
 .fusion-main-menu .menu-text {text-transform:uppercase;}
 
 /* ----------------------------------------------------------------
-	FUSION TABS
----------------------------------------------------------------- */
-.post-content .active h4.fusion-tab-heading,
-.post-content .fusion-tabs .nav-tabs li a:hover h4 {color:#fff !important;}
-.fusion-content-boxes.lidisplaynone ul {list-style:none; padding-left:0px;}
-
-/* ----------------------------------------------------------------
 	FOOTER
 ---------------------------------------------------------------- */
 .fusion-footer .fusion-checklist a {display:inline;}
